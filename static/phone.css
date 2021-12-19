@@ -1,0 +1,42 @@
+@media screen and (max-width: 1279px){
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+    #missionSection{
+        height: 783px;
+        align-items: center;
+    }
+    #missionSection .card{
+        display: flex;
+        width: 90%;
+        justify-content: center;
+    }
+    #sponserSection{
+        display: flex;
+        flex-direction: column;
+    }
+    #sponsers{
+        display: flex;
+        flex-direction: row;
+    }
+    #sponsers img{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 1279px){
+    #navbar ul li a{
+        font-size: 1.0rem;
+        padding: 15px 6px;
+    }
+    #navbar li a:hover{
+        color: black;
+        background-color: white;
+        font-size: 1.0rem;
+        padding: 15px 6px;
+        text-decoration: none;
+    }
+}

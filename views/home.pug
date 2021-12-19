@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+
+block style 
+    style 
+       include ../static/style.css
+       include ../static/phone.css
+
+block content 
+    section#introSection 
+        div Welcome to Dance Academy
+        div.small Eat Sleep Dance Repeat 
+    section#missionSection 
+        h2 Our Courses 
+        a(href="#")   
+          div.card
+            h3 Classical 
+              div.card-box
+                div.card-img
+                  img(src="../static/img/classical.jpg")
+                div.card-content
+                  p Learn Classical Dance 
+        a(href="#") 
+          div.card
+            h3 Hip-Hop
+              div.card-box
+                div.card-img
+                  img(src="../static/img/hip.jpg")
+                div.card-content
+                  p Learn Hip-Hop 
+        a(href="#")     
+          div.card
+            h3 Shuffle  
+              div.card-box
+                div.card-img
+                  img(src="../static/img/shuffle.jpg")
+                div.card-content
+                  p Learn Shuffle Dance 
+    section#sponserSection 
+        h2 Our Sponsers
+        div#sponsers
+          img(src="../static/img/sponser1.webp", alt="Sponser image", class="spImage") 
+          img(src="../static/img/sponser2.jpg", alt="Sponser image", class="spImage") 
+          img(src="../static/img/sponser3.jpg", alt="Sponser image", class="spImage") 
+          img(src="../static/img/sponser4.jpg", alt="Sponser image", class="spImage") 
